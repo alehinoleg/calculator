@@ -1,0 +1,68 @@
+body {
+    background-color: #242020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.board {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 416px;
+    flex-wrap: wrap;
+}
+
+.output {
+    height: 70px;
+    width: 100%;
+    border-top: 2px solid #16ba27;
+    padding: 13px;
+    padding-bottom: 0;
+    background-color: #363232;
+    color: #f0f0f0;
+    font-size: 54px;
+    margin-bottom: 5px;
+}
+
+.board-button {
+    width: 100%;
+    height: inherit;
+}
+
+.style-button {
+    width: 80px;
+    height: 80px;
+    border-radius: 3px;
+    background-color: #545252;
+    border: 0;
+    font-size: 37px;
+    color: #f0f0f0;
+    margin-bottom: 5px;
+}
+
+.style-button:active {
+    background-color: #635f5f;
+    box-shadow: inset 2px 2px 5px rgba(44, 44, 43, 0.589);
+}
+
+.button-equally {
+    background-color: #16ba27;
+}
+
+.button-equally:active {
+    background-color: #16a124;
+    box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5);
+}
+
+.button-C {
+    width: 332px;
+    color: #fc7a00;
+}
+
+.Mat-operations {
+    color: #16ba27;
+}
